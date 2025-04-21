@@ -350,17 +350,39 @@ header{
     display: flex;
     align-items: center;
     padding: 5%;
+    justify-content: center;
+    gap: 50px;
 }
 
 .form{
     background-color: #010100;
     color: #ffffff;
     padding: 3%;
+    
 
     input{
         background-color: #010100;
         border-color: #ffffff;
         margin-bottom: 30px;
+        
+    }
+
+    p{
+        margin-bottom: 5px;
+        max-width: 425px;
+    }
+}
+
+.form1{
+    display: flex;
+    gap: 20px;
+
+    input{
+        padding: 7px 14px;
+    }
+
+    p{
+        font-weight: 200;
     }
 }
 
@@ -368,4 +390,79 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    input{
+        padding: 7px 125px;
+    }
+
+    p{
+        font-weight: 200;
+    }
+}
+
+.input3{
+    input{
+        padding: 55px 125px;
+    }
+}
+
+.formText{
+    max-width: 500px;
+
+    h1{
+        font-size: 70px;
+        font-weight: 100;
+        color: #f5cb00;
+        width: 380px;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: 100;
+    }
+}
+
+
+/*mapa*/
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    background-color: #f5cb00;
+    padding: 3%;
+
+}
+
+.title2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-size: 60px;
+        font-weight: 100;
+    }
+}
+
+footer{
+    background-color: #010100;
+    padding: 3%;
+
+    i{
+        color: #f5cb00;
+    }
+
+    a{
+        color: #f5cb00;
+    }
+
+    p{
+        color: #f5cb00;
+    }
+
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
 }
